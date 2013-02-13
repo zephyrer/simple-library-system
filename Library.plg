@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Library - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP252.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Library.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Programming\database\复件 libraryFINAL!!!\Library\AdvancedQuery1.cpp"
+"D:\Programming\database\复件 libraryFINAL!!!\Library\BorrowBook.cpp"
+"D:\Programming\database\复件 libraryFINAL!!!\Library\LoginDlg.cpp"
+"D:\Programming\database\复件 libraryFINAL!!!\Library\ReturnBook.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP252.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP253.tmp" with contents
+[
+SkinPlusPlusDLL.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Library.pdb" /debug /machine:I386 /out:"Debug/Library.exe" /pdbtype:sept 
+".\Debug\_recordset.obj"
+".\Debug\AdminRS.obj"
+".\Debug\adodc.obj"
+".\Debug\AdvancedQuery1.obj"
+".\Debug\BasicQuery.obj"
+".\Debug\BookRS.obj"
+".\Debug\BorrowBook.obj"
+".\Debug\BorrowRS.obj"
+".\Debug\CardLostDlg.obj"
+".\Debug\CardNewDlg.obj"
+".\Debug\CardRS.obj"
+".\Debug\column.obj"
+".\Debug\columns.obj"
+".\Debug\dataformatdisp.obj"
+".\Debug\datagrid.obj"
+".\Debug\field.obj"
+".\Debug\fields.obj"
+".\Debug\font.obj"
+".\Debug\Library.obj"
+".\Debug\LibraryDlg.obj"
+".\Debug\LoginDlg.obj"
+".\Debug\MainMenu.obj"
+".\Debug\MultiplyAdd.obj"
+".\Debug\MultiplyAddDlg.obj"
+".\Debug\picture.obj"
+".\Debug\properties.obj"
+".\Debug\property.obj"
+".\Debug\QueryAdvanced.obj"
+".\Debug\ReturnBook.obj"
+".\Debug\selbookmarks.obj"
+".\Debug\SingleAddDlg.obj"
+".\Debug\split.obj"
+".\Debug\splits.obj"
+".\Debug\StdAfx.obj"
+".\Debug\stddataformatsdisp.obj"
+".\Debug\Library.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP253.tmp"
+<h3>Output Window</h3>
+Compiling...
+AdvancedQuery1.cpp
+BorrowBook.cpp
+LoginDlg.cpp
+ReturnBook.cpp
+Generating Code...
+Linking...
+LoginDlg.obj : error LNK2005: "class CString currentID" (?currentID@@3VCString@@A) already defined in BorrowBook.obj
+
+
+
+<h3>Results</h3>
+Library.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
